@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 200px 1fr;
+  background-color: #ff00ff40;
+
+  place-items: center;
+}
+
+main {
+  background-color: #ff000040;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.youtube-video {
+  width: 200px;
+}
+
+.map {
+  width: 200px;
+}
+
+.my-video {
+  width: 200px;
+}
+
+footer {
+  background-color: #ffff0040;
+}
